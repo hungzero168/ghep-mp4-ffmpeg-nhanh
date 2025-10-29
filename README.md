@@ -6,8 +6,9 @@ giúp ghép nhiều file MP4 bằng ffmpeg theo lô (batch) để tránh concat 
 - ffmpeg có trong PATH (có thể kiểm tra bằng `ffmpeg -version`)
 
 ## Cách dùng
+
 tải kho git. copy file và thư mục cần ghép video
-WINDOW: chạy file .bat
+WINDOW: 'chạy file .bat'
 
 
 1. Đặt các file `*.mp4` cần ghép vào cùng thư mục chứa `__merge_parts.ps1`.

@@ -8,6 +8,7 @@ giúp ghép nhiều file MP4 bằng ffmpeg theo lô (batch) để tránh concat 
 ## Cách dùng
 
 tải kho git. copy file và thư mục cần ghép video
+
 WINDOW: `chạy file .bat`
 
 

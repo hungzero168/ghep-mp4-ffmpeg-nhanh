@@ -1,13 +1,14 @@
 # ghep-mp4-ffmpeg-nhanh
-
-Script PowerShell `__merge_parts.ps1` giúp ghép nhiều file MP4 bằng ffmpeg theo lô (batch) để tránh concat quá nhiều file trong một lần.
+giúp ghép nhiều file MP4 bằng ffmpeg theo lô (batch) để tránh concat quá nhiều file trong một lần.
 
 ## Yêu cầu
-
 - Windows PowerShell
 - ffmpeg có trong PATH (có thể kiểm tra bằng `ffmpeg -version`)
 
 ## Cách dùng
+tải kho git. copy file và thư mục cần ghép video
+WINDOW: chạy file .bat
+
 
 1. Đặt các file `*.mp4` cần ghép vào cùng thư mục chứa `__merge_parts.ps1`.
 2. Mở PowerShell trong thư mục đó.
@@ -35,21 +36,3 @@ Script sẽ:
 - Lỗi `ffmpeg` không tìm thấy: cài ffmpeg và thêm vào PATH.
 - Nếu concat-copy thất bại do codec/timebase mismatch, script tự fallback sang re-encode.
 
-## Cách đẩy lên GitHub
-
-Nếu bạn muốn đẩy repo này lên GitHub (đã có repo sẵn):
-
-```powershell
-git init
-git remote add origin https://github.com/hungzero168/ghep-mp4-ffmpeg-nhanh.git
-git add .
-git commit -m "Add README and merge script"
-git branch -M main
-git push -u origin main
-```
-
-Thay `main` bằng `master` nếu repo sử dụng `master`.
-
----
-
-Nếu bạn muốn, tôi có thể giúp tạo commit và push trực tiếp từ workspace này. Hãy xác nhận để tôi tiếp tục.
